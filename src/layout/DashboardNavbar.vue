@@ -10,7 +10,7 @@
     >
       <div class="form-group mb-0">
         <base-input
-          placeholder="Search"
+          placeholder="Tìm kiếm"
           class="input-group-alternative"
           alternative=""
           addon-right-icon="fas fa-search"
@@ -35,28 +35,28 @@
             </div>
           </template>
           <div class="dropdown-header noti-title">
-            <h6 class="text-overflow m-0">Welcome!</h6>
+            <h6 class="text-overflow m-0">Xin chào!</h6>
           </div>
           <router-link to="/profile" class="dropdown-item">
             <i class="ni ni-single-02"></i>
-            <span>My profile</span>
+            <span>Hồ sơ</span>
           </router-link>
           <router-link to="/profile" class="dropdown-item">
             <i class="ni ni-settings-gear-65"></i>
-            <span>Settings</span>
+            <span>Cài đặt</span>
           </router-link>
           <router-link to="/profile" class="dropdown-item">
             <i class="ni ni-calendar-grid-58"></i>
-            <span>Activity</span>
+            <span>Hoạt động</span>
           </router-link>
           <router-link to="/profile" class="dropdown-item">
             <i class="ni ni-support-16"></i>
-            <span>Support</span>
+            <span>Hỗ trợ</span>
           </router-link>
           <div class="dropdown-divider"></div>
           <router-link to="/profile" class="dropdown-item">
             <i class="ni ni-user-run"></i>
-            <span>Logout</span>
+            <span>Đăng xuất</span>
           </router-link>
         </base-dropdown>
       </li>

@@ -37,25 +37,25 @@
           <li class="nav-item">
             <router-link class="nav-link nav-link-icon" to="/">
               <i class="ni ni-planet"></i>
-              <span class="nav-link-inner--text">Dashboard</span>
+              <span class="nav-link-inner--text">Trang quản trị</span>
             </router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link nav-link-icon" to="/register">
               <i class="ni ni-circle-08"></i>
-              <span class="nav-link-inner--text">Register</span>
+              <span class="nav-link-inner--text">Đăng ký</span>
             </router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link nav-link-icon" to="/login">
               <i class="ni ni-key-25"></i>
-              <span class="nav-link-inner--text">Login</span>
+              <span class="nav-link-inner--text">Đăng nhập</span>
             </router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link nav-link-icon" to="/profile">
               <i class="ni ni-single-02"></i>
-              <span class="nav-link-inner--text">Profile</span>
+              <span class="nav-link-inner--text">Hồ sơ</span>
             </router-link>
           </li>
         </ul>
@@ -67,11 +67,11 @@
         <div class="header-body text-center mb-7">
           <div class="row justify-content-center">
             <div class="col-lg-5 col-md-6">
-              <h1 class="text-white">Welcome!</h1>
-              <p class="text-lead text-white">
+              <h1 class="text-white">Chào mừng đến với My Mavin!</h1>
+              <!-- <p class="text-lead text-white">
                 Use these awesome forms to login or create new account in your
                 project for free.
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
@@ -99,18 +99,18 @@
     <footer class="py-5">
       <div class="container">
         <div class="row align-items-center justify-content-xl-between">
-          <div class="col-xl-6">
-            <div class="copyright text-center text-xl-left text-muted">
+          <div class="col-xl-12">
+            <div class="copyright text-center text-muted">
               &copy; {{ year }}
               <a
-                href="https://www.creative-tim.com"
+                href="http://keysoft.vn/"
                 class="font-weight-bold ml-1"
                 target="_blank"
-                >Creative Tim</a
+                >Keysoft</a
               >
             </div>
           </div>
-          <div class="col-xl-6">
+          <!-- <div class="col-xl-6">
             <ul
               class="nav nav-footer justify-content-center justify-content-xl-end"
             >
@@ -147,7 +147,7 @@
                 >
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
     </footer>

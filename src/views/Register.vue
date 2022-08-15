@@ -3,7 +3,7 @@
     <div class="col-lg-5 col-md-7">
       <div class="card bg-secondary shadow border-0">
         <div class="card-header bg-transparent pb-5">
-          <div class="text-muted text-center mt-2 mb-3">
+          <!-- <div class="text-muted text-center mt-2 mb-3">
             <small>Sign up with</small>
           </div>
           <div class="btn-wrapper text-center">
@@ -19,16 +19,16 @@
               /></span>
               <span class="btn-inner--text">Google</span>
             </a>
-          </div>
+          </div> -->
         </div>
         <div class="card-body px-lg-5 py-lg-5">
           <div class="text-center text-muted mb-4">
-            <small>Or sign up with credentials</small>
+            <small>Đăng kí</small>
           </div>
           <form role="form">
             <base-input
               formClasses="input-group-alternative"
-              placeholder="Name"
+              placeholder="Họ và Tên"
               addon-left-icon="ni ni-hat-3"
               v-model="model.name"
             >
@@ -36,7 +36,7 @@
 
             <base-input
               formClasses="input-group-alternative"
-              placeholder="Email"
+              placeholder="Tên đăng nhập"
               addon-left-icon="ni ni-email-83"
               v-model="model.email"
               focused
@@ -45,7 +45,7 @@
 
             <base-input
               formClasses="input-group-alternative"
-              placeholder="Password"
+              placeholder="Mật khẩu"
               type="password"
               addon-left-icon="ni ni-lock-circle-open"
               v-model="model.password"
@@ -54,8 +54,8 @@
 
             <div class="text-muted font-italic">
               <small
-                >password strength:
-                <span class="text-success font-weight-700">strong</span></small
+                >Độ mạnh mật khẩu:
+                <span class="text-success font-weight-700">Mạnh</span></small
               >
             </div>
 
@@ -63,14 +63,14 @@
               <div class="col-12">
                 <base-checkbox class="custom-control-alternative">
                   <span class="text-muted"
-                    >I agree with the <a href="#!">Privacy Policy</a></span
+                    >Tôi đồng ý với <a href="#!">Chính sách Bảo mật</a></span
                   >
                 </base-checkbox>
               </div>
             </div>
             <div class="text-center">
               <base-button type="primary" class="my-4"
-                >Create account</base-button
+                >Đăng kí tài khoản</base-button
               >
             </div>
           </form>
@@ -79,12 +79,12 @@
       <div class="row mt-3">
         <div class="col-6">
           <a href="#" class="text-light">
-            <small>Forgot password?</small>
+            <small>Quên mật khẩu?</small>
           </a>
         </div>
         <div class="col-6 text-right">
           <router-link to="/login" class="text-light">
-            <small>Login into your account</small>
+            <small>Đăng nhập</small>
           </router-link>
         </div>
       </div>

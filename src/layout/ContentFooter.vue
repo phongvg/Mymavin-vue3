@@ -1,18 +1,18 @@
 <template>
   <footer class="footer px-4">
     <div class="row align-items-center justify-content-lg-between">
-      <div class="col-lg-6">
-        <div class="copyright text-center text-lg-left text-muted">
+      <div class="col-lg-12">
+        <div class="copyright text-center text-muted">
           © {{ year }}
           <a
-            href="https://www.creative-tim.com"
+            href="http://keysoft.vn/"
             class="font-weight-bold ml-1"
             target="_blank"
-            >Creative Tim</a
+            >Keysoft</a
           >
         </div>
       </div>
-      <div class="col-lg-6">
+      <!-- <div class="col-lg-6">
         <ul
           class="nav nav-footer justify-content-center justify-content-lg-end"
         >
@@ -49,7 +49,7 @@
             >
           </li>
         </ul>
-      </div>
+      </div> -->
     </div>
   </footer>
 </template>
